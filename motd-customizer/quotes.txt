@@ -1,0 +1,120 @@
+1. The journey of a thousand miles begins with a single step... and a single commit.,Lao Tzu (Adapted)
+2. Discipline is the bridge between goals and accomplishment.,Jim Rohn
+3. Consistency is more important than intensity.,Chris Traeger
+4. Amateurs wait for inspiration. The rest of us just get up and go to work.,Stephen King
+5. Commitment is what transforms a promise into a reality.,Abraham Lincoln
+6. The best time to plant a tree was 20 years ago. The second best time is now.,Chinese Proverb
+7. I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.,Bruce Lee
+8. A little progress each day adds up to big results.,Satya Nani
+9. Done is better than perfect.,Sheryl Sandberg
+10. Every day, in every way, I'm getting better and better.,Émile Coué
+11. The only way to do great work is to love what you do.,Steve Jobs
+12. The secret of getting ahead is getting started.,Mark Twain
+13. Show up, show up, show up, and after a while, you'll start to show off.,Eric Thomas
+14. It does not matter how slowly you go as long as you do not stop.,Confucius
+15. First, solve the problem. Then, write the code.,John Johnson
+16. Failure is an option here. If things are not failing, you are not innovating enough.,Elon Musk
+17. Progress, not perfection.,Anonymous
+18. The pain of regret is worse than the pain of discipline.,Anonymous
+19. You don't have to be great to start, but you have to start to be great.,Zig Ziglar
+20. If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.,Zig Ziglar
+21. Small daily improvements are the key to staggering long-term results.,Robin Sharma
+22. You are the creator of your own future.,Anonymous
+23. Hard work beats talent when talent doesn't work hard.,Tim Notke
+24. It's not about having time, it's about making time.,Anonymous
+25. Today's commit is tomorrow's DevOps foundation.,Anonymous
+26. The expert in anything was once a beginner.,Helen Hayes
+27. Your commit history is your resume.,Anonymous
+28. Every day is a second chance.,Anonymous
+29. Focus on the process, not the outcome.,Anonymous
+30. Never look back unless it's to see how far you've come.,Anonymous
+31. The mind is everything. What you think you become.,Buddha
+32. Infrastructure as Code: Say it once, deploy it everywhere.,Anonymous
+33. Don't wish it were easier, wish you were better.,Jim Rohn
+34. If you can't explain it simply, you don't understand it well enough.,Albert Einstein
+35. Where there is a Will, there is a way.,English Proverb
+36. The difference between who you are and who you want to be is what you do.,Anonymous
+37. It's hard to beat a person who never gives up.,Babe Ruth
+38. The impediment to action advances action. What stands in the way becomes the way.,Marcus Aurelius
+39. You are what you consistently do.,Aristotle
+40. Code is like humor. When you have to explain it, it’s bad.,Cory House
+41. Automation is the key to managing complexity.,Anonymous
+42. The only impossible journey is the one you never begin.,Tony Robbins
+43. The harder the conflict, the more glorious the triumph.,Thomas Paine
+44. Doubt kills more dreams than failure ever will.,Suzy Kassem
+45. Learning never exhausts the mind.,Leonardo da Vinci
+46. Strive for progress, not perfection.,Anonymous
+47. You miss 100$%$ of the shots you don't take.,Wayne Gretzky
+48. The purpose of our lives is to be happy.,Dalai Lama
+49. Focus on being productive, not busy.,Tim Ferriss
+50. You cannot change your destination overnight, but you can change your direction overnight.,Jim Rohn
+51. If you get tired, learn to rest, not to quit.,Banksy
+52. Success is the sum of small efforts, repeated day in and day out.,Robert Collier
+53. Be patient with yourself. Nothing in nature blooms all year.,Anonymous
+54. The best way to predict the future is to create it.,Peter Drucker
+55. A creative man is motivated by the desire to achieve, not by the desire to beat others.,Ayn Rand
+56. When you feel like quitting, think about why you started.,Anonymous
+57. The two most important days in your life are the day you are born and the day you find out why.,Mark Twain
+58. The person who never made a mistake never made anything new.,Albert Einstein
+59. If you are working on something exciting that you really care about, you don't have to be pushed.,Larry Page
+60. Today's Kubernetes YAML is tomorrow's smooth deployment.,Anonymous
+61. You have to be odd to be number one.,Dr. Seuss
+62. The devil is in the details. The DevOps is in the automation.,Anonymous
+63. Don't stop when you're tired. Stop when you're done.,Marilyn Monroe
+64. Continuous effort—not strength or intelligence—is the key to unlocking our potential.,Winston Churchill
+65. We are what we repeatedly do. Excellence, then, is not an act, but a habit.,Aristotle
+66. The road to success and the road to failure are almost exactly the same.,Colin R. Davis
+67. Automation applied to an efficient operation will magnify the efficiency.,Bill Gates
+68. Eighty percent of success is showing up.,Woody Allen
+69. The biggest risk is not taking any risk.,Mark Zuckerberg
+70. It always seems impossible until it's done.,Nelson Mandela
+71. The future belongs to those who believe in the beauty of their dreams.,Eleanor Roosevelt
+72. Go confidently in the direction of your dreams!,Henry David Thoreau
+73. It's fine to celebrate success but it is more important to heed the lessons of failure.,Bill Gates
+74. The mind, once stretched by a new idea, never returns to its original dimensions.,Ralph Waldo Emerson
+75. If you can dream it, you can do it.,Walt Disney
+76. Don't count the days, make the days count.,Muhammad Ali
+77. The struggle you're in today is developing the strength you need for tomorrow.,Robert Tew
+78. Look up at the stars and not down at your feet.,Stephen Hawking
+79. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.,Steve Jobs
+80. If you genuinely want something, don't wait for it—teach yourself to be impatient.,Gurbaksh Chahal
+81. The AI tools are just tools. The human is still the master craftsman.,Anonymous
+82. You are stronger than you know.,Anonymous
+83. Be the change that you wish to see in the world.,Mahatma Gandhi
+84. Opportunity is missed by most people because it is dressed in overalls and looks like work.,Thomas Edison
+85. The best revenge is massive success.,Frank Sinatra
+86. Winning isn't everything, but wanting to win is.,Vince Lombardi
+87. What defines us is how well we rise after falling.,Anonymous
+88. The only place where success comes before work is in the dictionary.,Vidal Sassoon
+89. Your README is the conclusion of your 90-day epic.,Anonymous
+90. I did it.,You
+91. If not now, when?,Anonymous
+92. Change the world by being yourself.,Amy Poehler
+93. Great things are done by a series of small things brought together.,Vincent Van Gogh
+94. The future of IT is automated.,Anonymous
+95. Embrace the glorious mess that you are.,Elizabeth Gilbert
+96. The cost of not following your heart is spending the rest of your life wishing you had.,Anonymous
+97. Success is not final; failure is not fatal: It is the courage to continue that counts.,Winston Churchill
+98. Start where you are. Use what you have. Do what you can.,Arthur Ashe
+99. It takes courage to grow up and become who you really are.,E.E. Cummings
+100. Simplicity is the ultimate sophistication.,Leonardo da Vinci
+101. Where there is no struggle, there is no strength.,Oprah Winfrey
+102. Develop a passion for learning. If you do, you will never cease to grow.,Anthony J. D'Angelo
+103. The most difficult thing is the decision to act, the rest is merely tenacity.,Amelia Earhart
+104. The only competition you will ever have is the man in the mirror.,Anonymous
+105. If you want to live a happy life, tie it to a goal, not to people or things.,Albert Einstein
+106. A clear vision, backed by definite plans, gives you a tremendous feeling of confidence and personal power.,Brian Tracy
+107. You must expect great things of yourself before you can do them.,Michael Jordan
+108. Keep your eyes on the stars, and your feet on the ground.,Theodore Roosevelt
+109. Definiteness of purpose is the starting point of all achievement.,W. Clement Stone
+110. Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.,Earl Nightingale
+111. The CI/CD pipeline only works if you keep pushing.,Anonymous
+112. Everything you want is on the other side of fear.,George Addair
+113. What would you do if you knew you could not fail?,Anonymous
+114. The best time for new beginnings is now.,Anonymous
+115. It's not whether you get knocked down, it's whether you get up.,Vince Lombardi
+116. There is only one person responsible for your job search: you.,Anonymous
+117. Choose a job you love, and you will never have to work a day in your life.,Confucius
+118. The difference between success and failure is often found in the small details.,Anonymous
+119. You are one commit away from proving your worth.,Anonymous
+120. 90 days of commitment = A lifetime of opportunity.,Anonymous
