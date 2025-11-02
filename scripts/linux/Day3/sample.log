@@ -1,0 +1,4 @@
+[2025-11-02 12:00:01] INFO User login from 192.168.1.10
+[2025-11-02 12:01:15] ERROR Failed to connect to database
+[2025-11-02 12:02:30] WARN Disk usage at 85%
+[2025-11-02 12:03:45] INFO Scheduled job completed
