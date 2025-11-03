@@ -1,0 +1,6 @@
+🔍 Starting audit for group: devops_team
+👤 Auditing user: devops_user
+✅ Read access: YES
+✅ Write access: YES
+-----------------------------
+✅ Audit complete. Report saved to: ./access_report_20251103_150232.log
