@@ -1,0 +1,40 @@
+{
+  "TargetGroups": [
+    {
+      "Name": "web-app-tg",
+      "Protocol": "HTTP",
+      "Port": 80,
+      "TargetType": "instance",
+      "HealthCheck": {
+        "Protocol": "HTTP",
+        "Path": "/health",
+        "IntervalSeconds": 30,
+        "TimeoutSeconds": 5,
+        "HealthyThresholdCount": 3,
+        "UnhealthyThresholdCount": 2
+      },
+      "Targets": [
+        { "Id": "i-0123456789abcdef0", "Port": 80 },
+        { "Id": "i-0fedcba9876543210", "Port": 80 }
+      ]
+    },
+    {
+      "Name": "api-service-tg",
+      "Protocol": "HTTP",
+      "Port": 8080,
+      "TargetType": "ip",
+      "HealthCheck": {
+        "Protocol": "HTTP",
+        "Path": "/status",
+        "IntervalSeconds": 20,
+        "TimeoutSeconds": 5,
+        "HealthyThresholdCount": 2,
+        "UnhealthyThresholdCount": 2
+      },
+      "Targets": [
+        { "Id": "10.0.1.25", "Port": 8080 },
+        { "Id": "10.0.1.26", "Port": 8080 }
+      ]
+    }
+  ]
+}
