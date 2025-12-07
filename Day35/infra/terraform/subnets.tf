@@ -1,22 +1,76 @@
+############################################################
 # Day 35 – Terraform Subnets with Loops
+# File: infra/terraform/subnets.tf
+#
+# Goal:
+#   Create multiple public and private subnets efficiently
+#   using for_each, instead of repeating resource blocks.
+#
+# Assumes:
+#   - aws_vpc.main is defined in vpc.tf
+############################################################
 
-## Goal
-Create multiple public and private subnets efficiently using Terraform loops.
+# Define subnet metadata in locals so we can loop over them
+locals {
+  public_subnets = {
+    public-a = {
+      cidr = "10.0.1.0/24"
+      az   = "ap-south-1a"
+    }
+    public-b = {
+      cidr = "10.0.2.0/24"
+      az   = "ap-south-1b"
+    }
+  }
 
-## What I did
-- Defined public and private subnet layouts using structured Terraform locals.
-- Used `for_each` to generate multiple subnets from a single resource block.
-- Configured public subnets with auto public IPs and private subnets without them.
-- Applied consistency through tagging for environment, type, and ownership.
+  private_subnets = {
+    private-a = {
+      cidr = "10.0.11.0/24"
+      az   = "ap-south-1a"
+    }
+    private-b = {
+      cidr = "10.0.12.0/24"
+      az   = "ap-south-1b"
+    }
+  }
+}
 
-## What this proves
-- I can use Terraform as a modeling tool, not just a syntax tool.
-- I understand why `for_each` is safer than `count` for long-term infrastructure.
-- I can design network layouts that are predictable and scalable.
-- I know how public and private subnets differ at a behavior level.
+############################################################
+# Public Subnets (for_each loop)
+############################################################
 
-## How this helps a client/employer
-- I can design scalable AWS network architectures using Infrastructure as Code.
-- I can eliminate repetitive subnet definitions and reduce configuration errors.
-- I can safely modify subnet layouts without causing unnecessary destruction.
-- I can standardize environments using tagging and naming conventions.
+resource "aws_subnet" "public" {
+  for_each = local.public_subnets
+
+  vpc_id                  = aws_vpc.main.id
+  cidr_block              = each.value.cidr
+  availability_zone       = each.value.az
+  map_public_ip_on_launch = true
+
+  tags = {
+    Name        = "day35-${each.key}"
+    Environment = "dev"
+    Type        = "public"
+    ManagedBy   = "terraform"
+  }
+}
+
+############################################################
+# Private Subnets (for_each loop)
+############################################################
+
+resource "aws_subnet" "private" {
+  for_each = local.private_subnets
+
+  vpc_id                  = aws_vpc.main.id
+  cidr_block              = each.value.cidr
+  availability_zone       = each.value.az
+  map_public_ip_on_launch = false
+
+  tags = {
+    Name        = "day35-${each.key}"
+    Environment = "dev"
+    Type        = "private"
+    ManagedBy   = "terraform"
+  }
+}
